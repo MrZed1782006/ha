@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    gap: 20px;
+}
+
+.logo img {
+    width: 200px;
+    height: inherit;
+
+
+}
+
+.nav-bar li {
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 20px;
+    gap: 10px;
+
+
+
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-bar li a:hover {
+    color: #5E35B1;
+}
+
+/* body start here  */
+
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 60px;
+    flex-wrap: wrap;
+    
+}
+
+.hero-left {
+    max-width: 600px;
+}
+
+#sml-heading-1 {
+    color: #5E35B1;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+#main-heading {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 20px 0;
+}
+
+#para-of-heading {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Upload Box */
+.upload-box {
+    border: 2px dashed #715aff;
+    background-color: #f3f0ff;
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.upload-box i {
+    font-size: 32px;
+    color: #715aff;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.upload-box h3 {
+    font-weight: 600;
+    color: #715aff;
+    margin: 10px 0 5px;
+}
+
+.upload-box p {
+    color: #888;
+    font-size: 14px;
+    margin: 5px 0 20px;
+}
+
+.upload-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #715aff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.upload-btn:hover {
+    background-color: #5a46d1;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+/* Right Image */
+.hero-img img {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+}
+
+/* resume scanner */
+
+.resume-scanner{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+    gap: 300px;
+}
+
+.img-resume-scanner img {
+    margin-left: 60px;
+    width: 500px;
+    height: 400px;
+}
+section .resume-scanner-text{
+    width: 500px;
+    text-align: left;
+    
+}
+section .bullet{
+    width: 40px;
+    height: 40px;
+    background-color: #894eff;
+    color: #ffffff;
+    margin-top: 10px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+
+}
+.resume-scanner-text #l1{
+
+    margin-top: 10px;
+
+}
+
